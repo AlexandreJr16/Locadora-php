@@ -1,0 +1,17 @@
+.card img {
+  width: 100%;
+  max-width: 200px;
+  height: 200px;
+  align-self: center;
+  padding: 0.2rem;
+  border-radius: 6px;
+}
+.card {
+  padding: 0.2rem;
+}
+a {
+  margin: 0.2rem;
+}
+.card-subtitle {
+  margin-bottom: 1rem;
+}
