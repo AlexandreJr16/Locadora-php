@@ -78,6 +78,7 @@
                 <label for="imagem" class="form-label">URL da Imagem</label>
                 <input type="text" class="form-control" name="imagem" maxlength="255" required>
             </div>
+            
             <input type="submit" value="Salvar Filme" class="btn btn-primary">
         </form>
 
