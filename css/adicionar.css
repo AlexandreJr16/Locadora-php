@@ -34,6 +34,7 @@ body {
   width: 300px;
   height: 450px;
   border-radius: 20px 0px 0px 20px;
+<<<<<<< HEAD
   
   border-radius: 20px 20px 20px 20px;
   width: fit-content;
@@ -45,12 +46,22 @@ body {
   max-width: 500px;
   gap: 10px;
   padding: 15px 15px;
+=======
+  width: fit-content;
+}
+
+.info {
+  max-width: 95vw;
+  margin-left: 10px;
+  gap: 10px;
+>>>>>>> cfde09b1a94ee41a0a839a5ad39918e032d7fb2d
 }
 
 h1 {
   font-weight: bold;
 }
 
+<<<<<<< HEAD
 h1, h3 {
   width: 100%;
   margin-bottom: 15px;
@@ -63,11 +74,22 @@ form {
   justify-content: center;
   margin-top: 35px;
   padding: 10px;
+=======
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  padding: 15px;
+>>>>>>> cfde09b1a94ee41a0a839a5ad39918e032d7fb2d
   border-radius: 15px;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+<<<<<<< HEAD
 .formulario {
+=======
+.form {
+>>>>>>> cfde09b1a94ee41a0a839a5ad39918e032d7fb2d
   display: flex;
   gap: 5px;
 }
@@ -78,6 +100,16 @@ form {
   border-radius: 10px;
 }
 
+<<<<<<< HEAD
+=======
+.control {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  align-self: center;
+}
+
+>>>>>>> cfde09b1a94ee41a0a839a5ad39918e032d7fb2d
 .button {
   background-color: rebeccapurple;
   border-radius: 15px;
