@@ -63,7 +63,8 @@
             <form method="POST">
                 <div class="formulario">
                     <label for="codigo" class="form-label">Adicionar</label>
-                    <input type="number" class="form-control" name="quant" min="1" maxlength="255" required>
+                    <input style="outline: none;" type="number" class="form-control" name="quant" min="1"
+                        maxlength="255" required>
                     <p>unidades</p>
                 </div>
                 <div class="control">
