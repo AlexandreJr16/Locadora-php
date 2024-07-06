@@ -1,0 +1,44 @@
+version: "3.8"
+
+services:
+  web:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - ./app:/var/www/html
+    networks:
+      - mynetwork
+
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: meu_banco
+      MYSQL_USER: usuario
+      MYSQL_PASSWORD: senha
+    ports:
+      - "3307:3306" # Mudamos a porta externa para 3307
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./banco.sql:/docker-entrypoint-initdb.d/banco.sql
+    networks:
+      - mynetwork
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: db
+      MYSQL_ROOT_PASSWORD: root
+    networks:
+      - mynetwork
+
+volumes:
+  db_data:
+
+networks:
+  mynetwork:
