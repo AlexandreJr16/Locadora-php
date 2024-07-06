@@ -1,4 +1,4 @@
-### Locadora - Sistema CRUD em PHP
+# Locadora - Sistema CRUD em PHP
 ## Descrição
 Este projeto consiste em um sistema CRUD desenvolvido em PHP durante a disciplina de Web 1 na Fundação Matias Machline. O sistema simula o gerenciamento básico de uma locadora, permitindo a criação, leitura, atualização e exclusão de registros relacionados a filmes ou itens disponíveis para locação.
 
@@ -21,3 +21,13 @@ Este projeto consiste em um sistema CRUD desenvolvido em PHP durante a disciplin
 3. Configure as credenciais de acesso ao banco de dados no arquivo de configuração (config.php ou similar).
 4. Abra o sistema em seu navegador.
 5. Explore as funcionalidades de CRUD para gerenciar os filmes da locadora.
+
+## Images
+<p float="left">
+  <img src="app/css/php1.png" width="450" />
+  <img src="app/css/php2.png" width="450" />
+</p>
+<p float="left">
+  <img src="app/css/php3.png" width="450" />
+  <img src="app/css/php4.png" width="450" />
+</p>
